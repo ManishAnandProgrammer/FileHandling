@@ -15,3 +15,11 @@ Character streams are often "wrappers" for byte streams.
 The character stream uses the byte stream to perform the physical I/O, 
 while the character stream handles translation between characters and bytes. 
 FileReader, for example, uses FileInputStream, while FileWriter uses FileOutputStream. **Oracle Doc**
+
+# **Default Size Of BufferedInputStream Is 8Kb (8192 bytes)**
+
+# Buffered Classes
+
+There are four buffered stream classes used to wrap unbuffered streams: BufferedInputStream and 
+BufferedOutputStream create buffered byte streams, while BufferedReader and BufferedWriter create
+buffered character streams. [link](https://docs.oracle.com/javase/tutorial/essential/io/buffers.html)
