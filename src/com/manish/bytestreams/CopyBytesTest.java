@@ -1,4 +1,4 @@
-package com.manish.bytecopy;
+package com.manish.bytestreams;
 
 
 public class CopyBytesTest {
